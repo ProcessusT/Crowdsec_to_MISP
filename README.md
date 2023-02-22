@@ -1,7 +1,3 @@
-# Crowdsec_to_MISP
-
-
-
 <h2> Simple Python script to extract suspicious IPs from Crowdsec sqlite database and inject them into your MISP</h2>
 
 <br />
