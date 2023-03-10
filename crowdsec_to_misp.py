@@ -60,7 +60,7 @@ try:
                                 result=pymisp.add_attribute(event_id, {'type': 'ip-dst', 'value': str(ip), 'comment': 'From Crowdsec community decisions'}, pythonify=True)
 
                         # on delete l'ancien event
-                        misp.delete_event(oldevent_id)
+                        pymisp.delete_event(oldevent_id)
                 except Exception as err:
                         print(err)
                         sys.exit(1)
